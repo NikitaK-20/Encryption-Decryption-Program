@@ -1,6 +1,9 @@
-from Crypto.Hash import SHA256
+import os
+import random
+import sys
+
 from Crypto.Cipher import AES
-import os, random, sys
+from Crypto.Hash import SHA256
 
 
 def encrypt(key, filename):
@@ -32,7 +35,7 @@ def encrypt(key, filename):
 
 def decrypt(key, filename):
     out_File = os.path.join(os.path.dirname(filename), os.path.basename(filename[11:]))
-    chunksize = 64 * 1024
+    chunk_size = 64 * 1024
     with open(filename, "rb") as infile:
         file_size = infile.read(16)
         IV = infile.read(16)
@@ -41,7 +44,7 @@ def decrypt(key, filename):
 
         with open(out_File, "wb") as outfile:
             while True:
-                chunk = infile.read(chunksize)
+                chunk = infile.read(chunk_size)
                 if len(chunk) == 0:
                     break
 
