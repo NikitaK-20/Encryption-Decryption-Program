@@ -11,32 +11,28 @@ In this project I created an encryption/decryption program in Python. By creatin
 <h2>Program code:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Importing modules: <br/>
+<img src="https://i.imgur.com/QIT1MrT.png" height="30%" width="50%" />
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Encryption code:  <br/>
+<img src="https://i.imgur.com/NmSSVW8.png" height="30%" width="50%" />
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Decryption code: <br/>
+<img src="https://i.imgur.com/jKbButA.png" height="30%" width="50%"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+All file code:  <br/>
+<img src="https://i.imgur.com/fp2AXGE.png" height="30%" width="50%" />
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+If, elif and else statement :  <br/>
+<img src="https://i.imgur.com/H5fxfWS.png" height="30%" width="50%" />
+<br />
+<img src="https://i.imgur.com/wRNs8Ag.png" height="30%" width="50%" />
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
